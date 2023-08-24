@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "5643bab3-0d77-404c-b702-835e698c0b80",
+		"name": "Product & Reviews",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29174188"
+	},
+	"item": [
+		{
+			"name": "Get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Product",
+					"path": [
+						"api",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "/api/Product",
+					"path": [
+						"api",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Product/{id}",
+					"path": [
+						"api",
+						"Product",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product by Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "/api/Product/{id}",
+					"path": [
+						"api",
+						"Product",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete by Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "/api/Product/{id}",
+					"path": [
+						"api",
+						"Product",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Product/api/{id}",
+					"path": [
+						"api",
+						"Product",
+						"api",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Product/api/products",
+					"path": [
+						"api",
+						"Product",
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Review",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Review",
+					"path": [
+						"api",
+						"Review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Review",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "/api/Review",
+					"path": [
+						"api",
+						"Review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Review Id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Put Review ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "/api/Review/{id}",
+					"path": [
+						"api",
+						"Review",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Review ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "/api/Review/{id}",
+					"path": [
+						"api",
+						"Review",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/Review/product/{productId}",
+					"path": [
+						"api",
+						"Review",
+						"product",
+						"{productId}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
